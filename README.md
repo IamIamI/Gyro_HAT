@@ -70,18 +70,22 @@ There is still space for improvement, reduction of size, i'm currently using a 1
 The ESP32 i'm using also has a bunch of unused features so i could probably go for a smaller ESP32 type and solder directly onto the board to reduce some bulk.
 Also the wires are a bit too long
 
+
 # v0.3
 I added a battery in the schematic, and put the ESP32 on a bootleg breakout board with an on/off switch. 
 This way the whole thing is now portable but still works. 
 
 <img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/IMG_20230715_155742.jpg?raw=true" width="400" />
+
 [<img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/video2-3.jpg" width="400"/>](https://youtube.com/shorts/ydfomyhoa2s)
+
 
 # v0.2
 The second eye is added, initially i had the eyes in a mirrored position which required additional calculations, but i've decided it will work just as well if they are in the same orientation.
 That way troubleshooting will also become easier, if one works but the other not at least it's not the code.
 
 [<img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/video1-3.jpg" width="400"/>](https://youtu.be/Phr1z9wUe3c)
+
 
 # v0.1
 The script can run standalone, when you rotate the board left/right the x-axis of the iris changes.
