@@ -59,8 +59,8 @@ Now you can upload the 'Gyroscope_Eye_2_v4.ino' script
 
 And the actual hat now looks like this;
 
-![alt text](https://github.com/IamIamI/Gyro_HAT/blob/main/images/IMG_20230715_161058.jpg?raw=true)
-[<img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/IMG_20230715_161058.jpg?raw=true" width="200" />]
+
+<img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/IMG_20230715_161058.jpg?raw=true" width="400" />
 
 This is how the hat looks in motion;
 
@@ -76,7 +76,7 @@ Also the wires are a bit too long
 The second eye is added, initially i had the eyes in a mirrored position which required additional calculations, but i've decided it will work just as well if they are in the same orientation.
 That way troubleshooting will also become easier, if one works but the other not at least it's not the code.
 
-![alt text](https://github.com/IamIamI/Gyro_HAT/blob/main/images/IMG_20230715_155742.jpg?raw=true)
+<img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/IMG_20230715_155742.jpg?raw=true" width="400" />
 
 
 
@@ -86,7 +86,7 @@ When you rotate in the y-axis, the iris moves up and down.
 Again, it's clunky and not optimized, WIP!!!!
 The eye now works properly but it's very jagged
 
-[<img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/IMG_20230123_200207.jpg?raw=true" width="200" />]
+<img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/IMG_20230123_200207.jpg?raw=true" width="400" />
 
 
 
