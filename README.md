@@ -25,21 +25,21 @@ The current schematic looks as followed;
 
 
 ##Wiring
-ESP32 | MPU-6050 Gyro | GC9A01 TFT
----|---|---
-Pin 4 | - | RST
-Pin 19 | - | CS
-Pin 16 | - | DC
-Pin 23 | - | SDA
-Pin 18 | - | SCL
-3V3 | VCC | VCC
-GND | GND | GND
-Pin 21 | SDA | -
-Pin 22 | SCL | -
-- | XDA | -
-- | XCL | -
-- | ADO | -
-- | INT | -
+| ESP32 | MPU-6050 Gyro | GC9A01 TFT |
+| ---|---|--- |
+| Pin 4 | - | RST |
+| Pin 19 | - | CS |
+| Pin 16 | - | DC |
+| Pin 23 | - | SDA |
+| Pin 18 | - | SCL |
+| 3V3 | VCC | VCC |
+| GND | GND | GND |
+| Pin 21 | SDA | - |
+| Pin 22 | SCL | - |
+| - | XDA | - |
+| - | XCL | - |
+| - | ADO | - |
+| - | INT | - |
 
 The code uses the TFT_eSPI library, which you need to set to be use the GC9A01 drivers.
 Go to your Arduino libraries folder (default is C:\Users\<your_username>\Documents\Arduino\libraries\TFT_eSPI)
