@@ -27,19 +27,19 @@ The current schematic looks as followed;
 ##Wiring
 ESP32 | MPU-6050 Gyro | GC9A01 TFT
 ---|---|---
-Pin 4 | RST | 
-Pin 19 | CS | 
-Pin 16 | DC | 
-Pin 23 | SDA | 
-Pin 18 | SCL | 
+Pin 4 | - | RST
+Pin 19 | - | CS
+Pin 16 | - | DC
+Pin 23 | - | SDA
+Pin 18 | - | SCL
 3V3 | VCC | VCC
 GND | GND | GND
-Pin 21 | SDA | 
-Pin 22 | SCL | 
-- | XDA | 
-- | XCL | 
-- | ADO | 
-- | INT | 
+Pin 21 | SDA | -
+Pin 22 | SCL | -
+- | XDA | -
+- | XCL | -
+- | ADO | -
+- | INT | -
 
 The code uses the TFT_eSPI library, which you need to set to be use the GC9A01 drivers.
 Go to your Arduino libraries folder (default is C:\Users\<your_username>\Documents\Arduino\libraries\TFT_eSPI)
@@ -48,11 +48,11 @@ Comment out line 45 (#define ILI9341_DRIVER) by adding two slashes '//' to the s
 Uncomment line 65 (//#define GC9A01_DRIVER) by removing the two slashes '//'at the start of the line
 Uncomment line 201-265, these are defininng the default pins used for the TFT display, however we'll be using our own
 Add the following lines anywhere you want in the file;
-- #define TFT_MOSI 23
-- #define TFT_SCLK 18
-- #define TFT_CS   22
-- #define TFT_DC   16
-- #define TFT_RST   4
+ - #define TFT_MOSI 23
+ - #define TFT_SCLK 18
+ - #define TFT_CS   22
+ - #define TFT_DC   16
+ - #define TFT_RST   4
 
 Save.
 Now you can upload the 'Gyroscope_Eye_2_v4.ino' script
