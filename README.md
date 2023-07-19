@@ -2,15 +2,15 @@
 This is a project to make a hat with two round TFT displays that track your movement.
 
 The build includes;
-  - An ESP32
-	- A GY-521 MPU-6050 gyro/accelerometer module
-	- Two round GC9A01 based TFT displays (or one if you want to make a cyclops)
+ - An ESP32
+ - A GY-521 MPU-6050 gyro/accelerometer module
+ - Two round GC9A01 based TFT displays (or one if you want to make a cyclops)
 
 To make it portable you also will need the following;
-	- A 3.7v Lithium battery
-	- TP4056 03962A Lithium Battery charger module
-	- One HT7333-A 3.3V 0.25A LDO Linear Voltage Regulator
-	- A 100uF and 100nf capacitor
+ - A 3.7v Lithium battery
+ - TP4056 03962A Lithium Battery charger module
+ - One HT7333-A 3.3V 0.25A LDO Linear Voltage Regulator
+ - A 100uF and 100nf capacitor
 
 The concept is pretty straight forward. 
 When you move your head from left to right or up and down, the gyro registers the g-forces in those directions and moves the iris in the same direction.
