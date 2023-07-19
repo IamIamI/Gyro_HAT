@@ -64,7 +64,7 @@ And the actual hat now looks like this;
 
 This is how the hat looks in motion;
 
-[<img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/video1-3.jpg" width="400"/>](https://youtube.com/shorts/zsiIzT4D0e4)
+[<img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/video3-3.jpg" width="400"/>](https://youtube.com/shorts/zsiIzT4D0e4)
 
 There is still space for improvement, reduction of size, i'm currently using a 1100mah battery, but i assume could get away with a much tinier battery.
 The ESP32 i'm using also has a bunch of unused features so i could probably go for a smaller ESP32 type and solder directly onto the board to reduce some bulk.
