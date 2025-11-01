@@ -41,6 +41,10 @@ The current schematic looks as followed;
 | - | ADO | - |
 | - | INT | - |
 
+And visually, the wiring would look like this
+<img src="https://github.com/IamIamI/Gyro_HAT/blob/main/images/Moving_Eye_Hat_bb.png?raw=true" width="400" />
+
+
 The code uses the TFT_eSPI library, which you need to set to be use the GC9A01 drivers.
 Go to your Arduino libraries folder (default is C:\Users\<your_username>\Documents\Arduino\libraries\TFT_eSPI)
 Open User_Setup.h
